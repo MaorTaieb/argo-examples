@@ -6,7 +6,7 @@ patches:
   - path: replicas.yaml
     target:
       kind: Deployment
-      name: my-app  # Replace with the actual resource name
+      name: myKustom-app  # Replace with the actual resource name
 configMapGenerator:
   - name: mykustom-map
     env: config.properties
